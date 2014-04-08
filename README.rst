@@ -1,3 +1,12 @@
+.. Note::
+    **Alternative product**
+    
+    This product is mainly deprecated. Think about switching to `wildcard.foldercontents`__, that is part on Plone 5.
+    
+    __ http://pypi.python.org/pypi/wildcard.foldercontents
+
+.. contents::
+
 Introduction
 ============
 
@@ -20,8 +29,6 @@ What this product does
 ======================
 
 This product adds to Plone some of the features that follow.
-
-__ http://dev.plone.org/plone/ticket/11317
 
 Can now sort a folder in reverse order
 --------------------------------------
@@ -65,13 +72,6 @@ What this product isn't
 
 This product only reveals features that are already in Plone (inside the *orderObjects* method).
 It will not add new sorting behaviour.
-
-
-Alternative products
-====================
-
-On pypi there is a newer product that upgrades base folder_contents view with more features (like different sorting methods, multiple upload or shift-click selection): `pypi.python.org/pypi/wildcard.foldercontents <http://pypi.python.org/pypi/wildcard.foldercontents>`_
-
 
 Dependencies
 ============
