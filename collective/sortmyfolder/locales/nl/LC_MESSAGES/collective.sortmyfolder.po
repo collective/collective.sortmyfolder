@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.sortmyfolder 1.0\n"
-"POT-Creation-Date: 2013-09-05 08:33+0000\n"
+"POT-Creation-Date: 2014-04-08 05:05+0000\n"
 "PO-Revision-Date: 2013-09-05 10:35+0200\n"
 "Last-Translator: Maurits van Rees <m.van.rees@zestsoftware.nl>\n"
 "Language-Team: Zest Software <info@zestsoftware.nl>\n"
@@ -36,8 +36,8 @@ msgid "Expiration date"
 msgstr "Vervaldatum"
 
 #: ./browser/sort_contents.pt:104
-msgid "Id"
-msgstr "Id"
+msgid "ID"
+msgstr ""
 
 #: Profile description in configure.zcml
 msgid "Installs the collective.sortmyfolder package"
@@ -111,8 +111,9 @@ msgstr "Sorteer op vervaldatum. Deze datum gebruikt auteurs om inhoud automatisc
 msgid "help_sort_folder"
 msgstr "Geavanceerde sorteeropties voor de folder."
 
-#. Default: "Sort by content's id. Be aware that ids with digits can lead to unexpected results."
+#. Default: "Sort by content's ID. Be aware that IDs with digits can lead to unexpected results."
 #: ./browser/sort_contents.pt:105
+#, fuzzy
 msgid "help_sort_id"
 msgstr "Sorteer op id (verkorte naam). Let op: als er ids zijn die beginnen met cijfers, kan deze optie onverwachte resultaten opleveren."
 

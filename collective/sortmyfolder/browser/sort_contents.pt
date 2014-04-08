@@ -101,9 +101,9 @@
 			
             <div class="field">
                 <input type="radio" id="choice_id" name="id" value="id" />
-                <label for="choice_id" i18n:translate="">Id</label>
+                <label for="choice_id" i18n:translate="">ID</label>
                 <div class="formHelp" i18n:translate="help_sort_id">
-                    Sort by content's id. Be aware that ids with digits can lead to unexpected results.
+                    Sort by content's ID. Be aware that IDs with digits can lead to unexpected results.
                 </div>
             </div>
 

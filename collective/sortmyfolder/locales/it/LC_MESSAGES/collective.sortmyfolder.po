@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-09-05 08:33+0000\n"
+"POT-Creation-Date: 2014-04-08 05:05+0000\n"
 "PO-Revision-Date: 2011-01-04 11:10+0100\n"
 "Last-Translator: Luca Fabbri <luca.fabbri@redturtle.it>\n"
 "Language-Team: RedTurtle Technology <sviluppoplone@redturtle.it>\n"
@@ -37,7 +37,7 @@ msgid "Expiration date"
 msgstr "Data di scadenza"
 
 #: ./browser/sort_contents.pt:104
-msgid "Id"
+msgid "ID"
 msgstr ""
 
 #: Profile description in configure.zcml
@@ -112,7 +112,7 @@ msgstr "Ordina per data di scadenza. Questa data è usata dagli autori per far s
 msgid "help_sort_folder"
 msgstr "Opzioni avanzate di ordinamento della cartella"
 
-#. Default: "Sort by content's id. Be aware that ids with digits can lead to unexpected results."
+#. Default: "Sort by content's ID. Be aware that IDs with digits can lead to unexpected results."
 #: ./browser/sort_contents.pt:105
 msgid "help_sort_id"
 msgstr ""
