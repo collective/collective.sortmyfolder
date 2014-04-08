@@ -6,6 +6,8 @@ Changelog
 
 - Change capitalisation of ID sort field name from ``Id``.
   [davidjb]
+- Change action to be displayed if a default view is configured for a folder.
+  [davidjb]
 
 
 1.0.6 (2013-09-05)

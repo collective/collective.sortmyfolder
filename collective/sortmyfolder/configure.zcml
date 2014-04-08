@@ -38,6 +38,14 @@
       handler="collective.sortmyfolder.migration.run_actions_step"
       profile="collective.sortmyfolder:default" />
 
+  <genericsetup:upgradeStep
+      title="Update our actions"
+      description="Update actions to handle default views in folders"
+      source="1.0.1"
+      destination="1.0.7"
+      handler="collective.sortmyfolder.migration.run_actions_step"
+      profile="collective.sortmyfolder:default" />
+
   <cmf:registerDirectory
        name="sortmyfolder"/>
 

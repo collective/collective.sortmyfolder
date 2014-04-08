@@ -4,9 +4,9 @@
   <object name="sort_folder" meta_type="CMF Action" i18n:domain="collective.sortmyfolder">
    <property name="title" i18n:translate="">Sort folder</property>
    <property name="description" i18n:translate="help_sort_folder">Advanced sorting options for the folder</property>
-   <property name="url_expr">string:${globals_view/getCurrentObjectUrl}/@@sort_contents</property>
+   <property name="url_expr">string:${globals_view/getCurrentFolderUrl}/@@sort_contents</property>
    <property name="icon_expr">string:${portal_url}/++resource++sort-icon.png</property>
-   <property name="available_expr">nocall:object/sort_contents|nothing</property>
+   <property name="available_expr">python:exists('object/sort_contents') or object.restrictedTraverse('@@plone').isDefaultPageInFolder() and exists('folder/sort_contents')</property>
    <property name="permissions">
     <element value="Modify portal content"/>
    </property>
