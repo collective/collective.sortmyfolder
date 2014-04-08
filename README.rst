@@ -1,8 +1,7 @@
 Introduction
 ============
 
-The piece of software that make it possible to sort items in Plone contains hidden additional features.
-
+There's a piece of software that make possible sorting items in Plone, and it contains hidden additional features.
 Normally, when you call a sort action in Plone, you call a URL like this::
 
     http://myhost/myfolder/folder_position?position=up&id=content_id
@@ -17,17 +16,12 @@ The Plone UI has no way at the moment for performing actions like this::
 But this feature is inside Plone: in this way you will sort a folder automatically, using a field value for comparison
 (like ``title``, or ``created``).
 
-The ``folder_position`` script uses the ``orderObjects`` API. This last method has some additional nice features that
-unluckily are not exposed to users. But we can fix this.
-
-
 What this product does
 ======================
 
-This product adds to Plone some of the features that follow, patching Plone a little (see also `#11317`__).
+This product adds to Plone some of the features that follow.
 
 __ http://dev.plone.org/plone/ticket/11317
-
 
 Can now sort a folder in reverse order
 --------------------------------------
@@ -92,7 +86,6 @@ Note that on Plone 4, reverse sorting on the position does not work.
 Work is under way to fix this.  It needs changes in both
 ``collective.sortmyfolder`` and the core ``plone.folder`` package.
 
-
 Credits
 =======
 
@@ -114,6 +107,6 @@ This product was developed by RedTurtle Technology team.
 
 .. image:: http://www.redturtle.net/redturtle_banner.png
    :alt: RedTurtle Technology Site
-   :target: http://www.redturtle.net/
+   :target: http://www.redturtle.it/
 
  
