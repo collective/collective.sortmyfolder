@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.7 (unreleased)
+1.0.7 (2014-04-08)
 ------------------
 
 - Change capitalisation of ID sort field name from ``Id``.
