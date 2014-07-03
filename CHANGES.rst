@@ -4,7 +4,12 @@ Changelog
 1.0.8 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix reversing the current order in Plone 4.  This does not work in
+  standard folders, so we do not show the option to sort on position
+  anymore in that case.  But plone.folder 1.0.5 (which was included
+  first in Plone 4.3.3) improves things, so when that version is
+  available, we offer simple reversal of the current order.
+  [maurits]
 
 
 1.0.7 (2014-04-08)

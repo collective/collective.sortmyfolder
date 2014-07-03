@@ -90,7 +90,7 @@
                 </div>
             </div>
 
-            <div class="field">
+            <div class="field" tal:condition="view/can_use_position_script">
                 <input type="radio" id="choice_position" name="id" value="getObjPositionInParent" />
                 <label for="choice_position" i18n:translate="">Position in folder</label>
                 <div class="formHelp" i18n:translate="help_sort_position_in_folder">
@@ -122,6 +122,12 @@
         <label for="reverse" i18n:translate="">Reverse sorting</label>
         <div class="formHelp" i18n:translate="help_reverse">
             Check this for reverse sorting, from greater value to the lowest.
+        </div>
+        <div class="formHelp" i18n:translate="help_simple_reverse" tal:condition="view/simple_reversing">
+            If you do not select anything above, checking this option will simply reverse the current sorting.
+        </div>
+        <div class="formHelp" i18n:translate="help_no_simple_reverse" tal:condition="not:view/simple_reversing">
+            If you do not select anything above, checking this option will give an error.
         </div>
         <div class="visualClear">&nbsp;</div>
         <input type="submit" class="context" name="sort" value="Sort" i18n:attributes="value" />
